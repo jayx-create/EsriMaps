@@ -6,7 +6,7 @@ import io.cucumer.java.en.When;
 public class EsriMaps {
   
   
-@Given("{string}" is logged into ARCGIS account")
+@Given("{string} is logged into ARCGIS account")
   public void loginProfileIdIsLoggedIn(String loginProfileId) throws Exception{
    baseUtil.userInformation = TestUserUtil.getTestUserByProfileId(loginProfileId);
    realData = baseutil.userInformation;
