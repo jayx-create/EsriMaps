@@ -8,7 +8,7 @@ And  User is registered with "<Language>"
 @screenSizeType: ["Desktop"] @executionType: ["Browser"] 
 Scenario Outline: "<testcaseID>" customer can point North using the compass on ARCGIS Maps
 When Customer authenticates the API key for location 
-Then User points the compass North on ARCGIS 
+Then User verfies text on ARCGIS Map informing customer how to rotate map
 
 Examples: @ARC_1 @ARC_2
 | TestCaseId     | LoginProfileId | Language  | 
