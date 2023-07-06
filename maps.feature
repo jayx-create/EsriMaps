@@ -10,7 +10,8 @@ Scenario Outline: "<testcaseID>" customer can rotate South using the compass on 
 When Customer authenticates the APY key for location 
 Then User point the compass north on ARCGIS 
 
-Examples: @ARC_1 
+Examples: @ARC_1 @ARC_2
 | TestCaseId     | LoginProfileId | Language  | 
 | ARC_1          | 199              | English | 
+| ARC_2          | 200              | Spanish | 
 
