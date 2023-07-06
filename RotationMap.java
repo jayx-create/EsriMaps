@@ -11,6 +11,6 @@ public class RotationMap {
       ArcGISRuntimeEnvironment.setApiKey(yourAPIKey);
   }
 
-@Then("User points the compass north on ARCGIS")
+@Then("User points the compass North on ARCGIS")
   public void userPointsTheCompassNorthOnARCGIS(){
     
