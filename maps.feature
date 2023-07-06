@@ -6,7 +6,7 @@ Given "<LoginProfileId>" is logged into ARCGIS account
 And  User is registered with "<Language>"
 
 @screenSizeType: ["Desktop"] @executionType: ["Browser"] 
-Scenario Outline: "<testcaseID>" customer can rotate North using the compass on ARCGIS Maps
+Scenario Outline: "<testcaseID>" customer can point North using the compass on ARCGIS Maps
 When Customer authenticates the API key for location 
 Then User points the compass North on ARCGIS 
 
