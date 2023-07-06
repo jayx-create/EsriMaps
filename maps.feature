@@ -1,4 +1,4 @@
-Feature: Customer can point the compass North on the map while on ARCGIS Maps
+Feature: Customer can verify text while on ARCGIS Maps
 
 
 Background: The customer has logged into ARCGIS account
@@ -6,7 +6,7 @@ Given "<LoginProfileId>" is logged into ARCGIS account
 And  User is registered with "<Language>"
 
 @screenSizeType: ["Desktop"] @executionType: ["Browser"] 
-Scenario Outline: "<testcaseID>" customer can point North using the compass on ARCGIS Maps
+Scenario Outline: "<testcaseID>" customer can verify text while on ARCGIS Maps
 When Customer authenticates the API key for location 
 Then User verfies text on ARCGIS Map informing customer how to rotate map
 
