@@ -1,3 +1,7 @@
+import com.esri.arcgisruntime.mapping.ArcGISMap;
+import com.esri.arcgisruntime.mapping.view.MapView;
+import com.esri.arcgisruntime.toolkit.Compass;
+
 import io.cucumer.java.en.And;
 import io.cucumer.java.en.Given;
 import io.cucumer.java.en.Then;
