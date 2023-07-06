@@ -3,7 +3,7 @@ import io.cucumer.java.en.Given;
 import io.cucumer.java.en.Then;
 import io.cucumer.java.en.When;
 
-public class LogInSteps {
+public class EsriMaps {
   
   
 @Given("{string} is logged into ARCGIS account")
@@ -14,12 +14,12 @@ public class LogInSteps {
    switch(deviceMode.toUpperCase()) {
      case GlobalConstant.DESKTOP:
        if ( expectedLanguage.equals("English"){
-         cppPortal.invoke(username);
-         cppPortal.waitForPageToLoad();
+         esriMaps.invoke(username);
+         esriMaps.waitForPageToLoad();
        }
        else if( expectedLanguage.equals("Spanish"){
-         cppPortal.invoke(username);
-         cppPortal.waitForPageToLoad();
+         esriMaps.invoke(username);
+         esriMaps.waitForPageToLoad();
    }
  }           
  @And ("User is registered with {string}")
