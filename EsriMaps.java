@@ -6,7 +6,7 @@ import io.cucumer.java.en.When;
 public class LogInSteps {
   
   
-@Given("{string} is logged into Cal Poly Pomona portal")
+@Given("{string} is logged into ARCGIS account")
   public void loginProfileIdIsLoggedIn(String loginProfileId) throws Exception{
    baseUtil.userInformation = TestUserUtil.getTestUserByProfileId(loginProfileId);
    realData = baseutil.userInformation;
