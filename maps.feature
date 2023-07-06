@@ -2,7 +2,7 @@ Feature: Customer can rotate the map while on ARCGIS Maps
 
 
 Background: The customer has logged into ARCGIS account
-Given "<LoginProfileId>" is logged ARCGIS account
+Given "<LoginProfileId>" is logged into ARCGIS account
 And  User is registered with "<Language>"
 
 @screenSizeType: ["Desktop"] @executionType: ["Browser"] 
