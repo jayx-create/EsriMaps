@@ -1,1 +1,12 @@
-
+[
+{
+"LoginProfileId": "199",
+"UserName": "RUHUUHOQ"
+"preferredLanguage": "ENG"
+"firstName": John
+"LastName": "Doe"
+"emailToken": "John.Doe@gmail.com"
+"mode": "Desktop",
+"deviceExperience": "BROWSER"
+}
+]
